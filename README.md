@@ -4,8 +4,8 @@ Client/demo site for Kaadi Financial Professional Corporation, managed by pHouse
 
 ## URLs
 
-- Client-facing demo: `https://kaadi-financial.demo.phouseweb.ca` (pending)
-- Cloudflare Pages fallback: pending
+- Client-facing demo: `https://kaadi-financial.demo.phouseweb.ca`
+- Cloudflare Pages fallback: `https://kaadi-financial-demo.pages.dev`
 - Current public site: `https://www.kaadifinancial.ca`
 
 ## Linear
@@ -22,3 +22,11 @@ Client/demo site for Kaadi Financial Professional Corporation, managed by pHouse
   - Turnstile support/production requirement
   - Resend notification
 - No production DNS/site changes without explicit approval.
+
+## Deployment
+
+- Cloudflare Pages project: `kaadi-financial-demo`
+- Custom demo domain status: active
+- Demo robots: `noindex,nofollow`
+- Form QA: POST to `/api/contact` returned `{ "ok": true }` on custom demo domain
+- Notification recipient for demo QA: `mike@phouseproductions.com`

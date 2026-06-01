@@ -30,3 +30,11 @@ Client/demo site for Kaadi Financial Professional Corporation, managed by pHouse
 - Demo robots: `noindex,nofollow`
 - Form QA: POST to `/api/contact` returned `{ "ok": true }` on custom demo domain
 - Notification recipient for demo QA: `mike@phouseproductions.com`
+
+## V2 rebuild
+
+- V2 commit: `5d3df20`
+- Rebuilt around original Kaadi copy instead of generic AI copy.
+- Removed aggregate review/rating display; retained conservative public review excerpts.
+- Lucide-style inline SVG icons used for service cards and theme toggle.
+- QA artifacts saved in `user/drive/kaadi-financial/` as `v2-*`.

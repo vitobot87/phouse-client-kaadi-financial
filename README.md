@@ -38,3 +38,11 @@ Client/demo site for Kaadi Financial Professional Corporation, managed by pHouse
 - Removed aggregate review/rating display; retained conservative public review excerpts.
 - Lucide-style inline SVG icons used for service cards and theme toggle.
 - QA artifacts saved in `user/drive/kaadi-financial/` as `v2-*`.
+
+## Odyssey rebuild
+
+- Selected HTMLRev template/reference: Odyssey
+- Source repo: https://github.com/treefarmstudio/odyssey-theme
+- License: MIT
+- Commit: `82b0c69`
+- Used as structural/quality reference, customized with Kaadi copy/assets and pHouse demo rules.

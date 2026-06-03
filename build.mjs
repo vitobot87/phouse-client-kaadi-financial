@@ -5,4 +5,5 @@ execFileSync('npx',['-p','tailwindcss@3.4.17','-p','@tailwindcss/forms','tailwin
 copyFileSync('index.html','dist/index.html');
 copyFileSync('_worker.js','dist/_worker.js');
 copyFileSync('main.js','dist/main.js');
+copyFileSync('theme-init.js','dist/theme-init.js');
 cpSync('assets','dist/assets',{recursive:true});

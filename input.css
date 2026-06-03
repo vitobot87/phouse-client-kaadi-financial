@@ -17,9 +17,10 @@
   .h2{@apply my-3 font-serif text-[clamp(1.65rem,2.15vw,2.45rem)] font-medium leading-[1.08] tracking-[-.035em]}
   .lead{@apply max-w-[760px] text-[clamp(1.04rem,1.55vw,1.22rem)] text-slate-600 dark:text-slate-300}
   .btn{@apply inline-flex items-center gap-2.5 rounded-full border border-black/10 px-[18px] py-3.5 font-black no-underline transition hover:-translate-y-0.5 hover:shadow-xl dark:border-white/15}.btn-primary{@apply border-kaadi bg-kaadi text-white dark:border-white dark:bg-white dark:text-[#06101b]}
-  .blue-panel{@apply rounded-[34px] bg-navy text-white dark:bg-[#07111d]}
+  .blue-panel{@apply rounded-[34px] border border-black/10 bg-gradient-to-br from-[#f8fbff] to-[#e7f0fb] text-ink dark:border-white/10 dark:from-[#081729] dark:to-[#06101b] dark:text-white}
   .service{@apply rounded-[28px] border border-black/10 bg-panel p-7 transition hover:-translate-y-1 hover:border-kaadi/50 hover:shadow-[0_24px_80px_rgba(8,23,41,.13)] dark:border-white/10 dark:bg-[#0d1622]}
-  .step{@apply rounded-[20px] border border-white/15 bg-white/10 p-[18px]}.step span{@apply text-white/70}
-  .contact-input{@apply w-full rounded-[14px] border-white/20 bg-white/10 px-3.5 py-3 text-white placeholder:text-white/45 focus:border-sky-300 focus:ring-sky-300}
+  .step{@apply rounded-[20px] border border-black/10 bg-white/70 p-[18px] dark:border-white/15 dark:bg-white/10}.step span{@apply text-slate-600 dark:text-white/70}
+  .contact-input{@apply w-full rounded-[14px] border-black/10 bg-white/80 px-3.5 py-3 text-ink placeholder:text-slate-400 focus:border-kaadi focus:ring-kaadi dark:border-white/20 dark:bg-white/10 dark:text-white dark:placeholder:text-white/45 dark:focus:border-sky-300 dark:focus:ring-sky-300}
+.sheen{position:relative;overflow:hidden}.sheen:before{content:"";position:absolute;inset:-20%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.34),transparent);transform:translateX(-80%) rotate(18deg);animation:sheen 8s infinite}.dark .sheen:before{background:linear-gradient(120deg,transparent,rgba(255,255,255,.09),transparent)}.sheen>*{position:relative;z-index:1}@keyframes sheen{0%,60%{transform:translateX(-80%) rotate(18deg)}100%{transform:translateX(80%) rotate(18deg)}}
 }
 @media(max-width:520px){.wrap{width:calc(100% - 28px)}.brand img{width:186px}}

@@ -1,1 +1,1 @@
-module.exports={content:['./index.html'],darkMode:'class',theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui','sans-serif'],serif:['Georgia','Cambria','serif']},colors:{ink:'#071522',navy:'#081729',cream:'#f7f5ef',panel:'#fffdf8',kaadi:'#0b4c95',gold:'#c99a42'}}},plugins:[]}
+module.exports={content:['./index.html'],darkMode:'class',theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui','sans-serif'],serif:['Georgia','Cambria','serif']},colors:{ink:'#071522',navy:'#081729',kaadi:'#0b4c95'}}},plugins:[]}
